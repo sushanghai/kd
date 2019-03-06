@@ -1,0 +1,18 @@
+-- Create table
+create table MONTHTOTAL
+(
+  SBBH     VARCHAR2(100),
+  ZT       VARCHAR2(100),
+  DATETIME VARCHAR2(100)
+)
+tablespace EZVIEW
+  pctfree 10
+  initrans 1
+  maxtrans 255
+  storage
+  (
+    initial 64
+    next 8
+    minextents 1
+    maxextents unlimited
+  );
