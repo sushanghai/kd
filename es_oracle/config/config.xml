@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<config>
+    <!--ES的IP及端口 -->
+    <es host="127.0.0.1" port="9200"/>
+</config>
