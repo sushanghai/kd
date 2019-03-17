@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<config>
+    <!--ES的IP及端口 -->
+    <es host="192.168.31.150" port="9200"/>
+
+    <!--统计视频一类二类三类在线率配置ES查询时间,需要在巡检考核表中查询-->
+    <es_date es_date="2018-12-01 14:01:05,2018-12-02 14:01:07" />
+</config>
